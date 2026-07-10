@@ -17,6 +17,6 @@ sqlite.execute("""CREATE TABLE IF NOT EXISTS livros(
                status STRING NOT NULL,
                nota INTEGER,
                data_inicio TEXT NOT NULL,
-               data_termino TEXT )""")
+               data_termino TEXT)""")
 
 conexao.commit()
