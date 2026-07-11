@@ -68,12 +68,6 @@ pip install -r requirements.txt
 ### 4. Execute a aplicação
 
 ```bash
-uvicorn app.main:app --reload
-```
-
-Caso o arquivo `main.py` esteja na raiz do projeto, utilize:
-
-```bash
 uvicorn main:app --reload
 ```
 
@@ -100,7 +94,7 @@ Após iniciar a aplicação, a documentação interativa estará disponível em:
 ### Em desenvolvimento
 
 * Buscar livro por ID
-* Atualizar informações de um livro
+* Atualizar informações de um livro -> FAZENDO
 * Excluir livros
 * Pesquisa por título e autor
 * Filtros por status de leitura
@@ -122,7 +116,7 @@ Cada livro possui informações como:
 * Número de páginas
 * Status da leitura
 
-Novos campos poderão ser adicionados futuramente, como nota, datas de leitura, resenha e ISBN.
+Novos campos poderão ser adicionados futuramente, como notas, resenha e foto da capa do livro.
 
 ---
 
@@ -134,7 +128,6 @@ Novos campos poderão ser adicionados futuramente, como nota, datas de leitura, 
 * Adicionar gráficos de desempenho.
 * Permitir upload de capas dos livros.
 * Implementar busca avançada e filtros.
-* Migrar para PostgreSQL caso o projeto cresça.
 
 ---
 
